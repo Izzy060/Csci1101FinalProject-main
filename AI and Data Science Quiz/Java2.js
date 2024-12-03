@@ -1,47 +1,47 @@
 const questions = [
     {
-        questions: "Questions goes here",
+        questions: "What is AI",
         answers: [
-            { text: "Answer 1 here", correct: false}, /*Change to correct if answer is correct*/
-            { text: "Answer 2 here", correct: true},
-            { text: "Answer 3 here", correct: false},
-            { text: "Answer 4 here", correct: false},
+            { text: "Ability to learn without specifying a set of rules", correct: false}, /*Change to correct if answer is correct*/
+            { text: "Any technique that enables a computer to mimic human behavior ", correct: true},
+            { text: "An algorithm that uses a network of interconnected nodes", correct: false},
+            { text: "Having multiple layers of neural networks that are able to complicated tasks", correct: false},
         ]
     },
     {
-        questions: "Questions goes here",
+        questions: "What does not use AI?",
         answers: [
-            { text: "Answer 1 here", correct: false}, /*Change to correct if answer is correct*/
-            { text: "Answer 2 here", correct: true},
-            { text: "Answer 3 here", correct: false},
-            { text: "Answer 4 here", correct: false},
+            { text: "apple/google Maps", correct: false}, /*Change to correct if answer is correct*/
+            { text: "YouTube", correct: false},
+            { text: "Clock App", correct: true},
+            { text: "Amazon", correct: false},
         ]
     },
     {
-        questions: "Questions goes here",
+        questions: "What is not an application of deep learning",
         answers: [
-            { text: "Answer 1 here", correct: false}, /*Change to correct if answer is correct*/
-            { text: "Answer 2 here", correct: true},
-            { text: "Answer 3 here", correct: false},
-            { text: "Answer 4 here", correct: false},
+            { text: "Simple Chatbots", correct: true}, /*Change to correct if answer is correct*/
+            { text: "Self-driving cars", correct: false},
+            { text: "Traffic prediction", correct: false},
+            { text: "Online fraud Detection", correct: false},
         ]
     },
     {
-        questions: "Questions goes here",
+        questions: "What is not a type of neural network",
         answers: [
-            { text: "Answer 1 here", correct: false}, /*Change to correct if answer is correct*/
-            { text: "Answer 2 here", correct: true},
-            { text: "Answer 3 here", correct: false},
-            { text: "Answer 4 here", correct: false},
+            { text: "Feed-forward Neural network", correct: false}, /*Change to correct if answer is correct*/
+            { text: "Autoencoders", correct: false},
+            { text: "Recurrent Neural Network", correct: false},
+            { text: "Back current Neural Network", correct: true},
         ]
     },
     {
-        questions: "Questions goes here",
+        questions: "What does AI stand for",
         answers: [
-            { text: "Answer 1 here", correct: false}, /*Change to correct if answer is correct*/
-            { text: "Answer 2 here", correct: true},
-            { text: "Answer 3 here", correct: false},
-            { text: "Answer 4 here", correct: false},
+            { text: "Artificial Invention", correct: false}, /*Change to correct if answer is correct*/
+            { text: "Automated Intelligence", correct: false},
+            { text: "Artificial Intelligence", correct: true},
+            { text: "Automated Innovation", correct: false},
         ]
     }
 ];

@@ -1,47 +1,47 @@
 const questions = [
     {
-        questions: "Questions goes here",
+        questions: "Who is often referred to as the father of the computer?",
         answers: [
-            { text: "Answer 1 here", correct: false}, /*Change to correct if answer is correct*/
-            { text: "Answer 2 here", correct: true},
-            { text: "Answer 3 here", correct: false},
-            { text: "Answer 4 here", correct: false},
+            { text: "Alan Turing", correct: false}, /*Change to correct if answer is correct*/
+            { text: "Charles Babbage", correct: true},
+            { text: "George Boole", correct: false},
+            { text: "Tim Berners-Lee", correct: false},
         ]
     },
     {
-        questions: "Questions goes here",
+        questions: ".Which of the following is NOT an instrument considered one of the early caculating machine",
         answers: [
-            { text: "Answer 1 here", correct: false}, /*Change to correct if answer is correct*/
-            { text: "Answer 2 here", correct: true},
-            { text: "Answer 3 here", correct: false},
-            { text: "Answer 4 here", correct: false},
+            { text: "Abacus", correct: false}, /*Change to correct if answer is correct*/
+            { text: "Slide Rule", correct: false},
+            { text: "The Difference Engine", correct: false},
+            { text: "Turing Machine", correct: true},
         ]
     },
     {
-        questions: "Questions goes here",
+        questions: "Which programming language did Bjarne Stroustrup develop?",
         answers: [
-            { text: "Answer 1 here", correct: false}, /*Change to correct if answer is correct*/
-            { text: "Answer 2 here", correct: true},
-            { text: "Answer 3 here", correct: false},
-            { text: "Answer 4 here", correct: false},
+            { text: "Java", correct: false}, /*Change to correct if answer is correct*/
+            { text: "Python", correct: false},
+            { text: "C++", correct: true},
+            { text: "COBOL", correct: false},
         ]
     },
     {
-        questions: "Questions goes here",
+        questions: "Who is considered the first computer programmer?",
         answers: [
-            { text: "Answer 1 here", correct: false}, /*Change to correct if answer is correct*/
-            { text: "Answer 2 here", correct: true},
-            { text: "Answer 3 here", correct: false},
-            { text: "Answer 4 here", correct: false},
+            { text: "Grace Hopper", correct: false}, /*Change to correct if answer is correct*/
+            { text: "Ada Lovelace", correct: true},
+            { text: "Bjarne Stroustrup", correct: false},
+            { text: "Alan Turing", correct: false},
         ]
     },
     {
-        questions: "Questions goes here",
+        questions: "Alan Turing is known for developing which of the following concepts?",
         answers: [
-            { text: "Answer 1 here", correct: false}, /*Change to correct if answer is correct*/
-            { text: "Answer 2 here", correct: true},
-            { text: "Answer 3 here", correct: false},
-            { text: "Answer 4 here", correct: false},
+            { text: "COBOL", correct: false}, /*Change to correct if answer is correct*/
+            { text: "Turing Machine", correct: true},
+            { text: "World Wide Web", correct: false},
+            { text: "Apple I computer", correct: false},
         ]
     }
 ];
