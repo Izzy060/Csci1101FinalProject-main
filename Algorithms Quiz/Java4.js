@@ -2,7 +2,7 @@ const questions = [
     {
         questions: "What is an Algorithm?",
         answers: [
-            { text: "Basic, low-level operations or data types that are the building blocks of more complex structures or functions", correct: false}, /*Change to correct if answer is correct*/
+            { text: "Basic, low-level operations or data types that are the building blocks of more complex structures or functions", correct: false}, /*Change to true if answer is correct*/
             { text: "An ordered set of unambiguous, executable steps that defines a terminating process.", correct: true},
             { text: "a block of code that performs a specific task similar to a function or method in programming languages", correct: false},
             { text: "A collection of related data of the same type (numbers, names, etc.)", correct: false},
@@ -11,7 +11,7 @@ const questions = [
     {
         questions: "What are the two main types of primitives? ",
         answers: [
-            { text: "Data and Operation primitives", correct: true}, /*Change to correct if answer is correct*/
+            { text: "Data and Operation primitives", correct: true}, 
             { text: "Data and Assignment primitives", correct: false},
             { text: "Operation and procedure primitives", correct: false},
             { text: "Operation and Assignment primitives", correct: false},
@@ -20,7 +20,7 @@ const questions = [
     {
         questions: "What is the correct order of  components of repetitive control",
         answers: [
-            { text: "Test, Initialize, Modify", correct: false}, /*Change to correct if answer is correct*/
+            { text: "Test, Initialize, Modify", correct: false}, 
             { text: "Test, Modify, Initialize", correct: false},
             { text: "Initialize, Modify, Test", correct: false},
             { text: "Initialize, Test, Modify", correct: true},
@@ -29,7 +29,7 @@ const questions = [
     {
         questions: " What is an Array?",
         answers: [
-            { text: "A search sort that examines each item in turn and compares it to the one we are searching for.", correct: false}, /*Change to correct if answer is correct*/
+            { text: "A search sort that examines each item in turn and compares it to the one we are searching for.", correct: false}, 
             { text: "An algorithm that arranges items in a collection so that there is an ordering on one (or more) of the fields in the items.", correct: false},
             { text: " A collection of related data of the same type (numbers, names, etc.).   ", correct: true},
             { text: "A simple comparison-based algorithm that works by repeatedly stepping through a list, comparing adjacent elements, and swapping them if they are in the wrong order", correct: false},
@@ -38,7 +38,7 @@ const questions = [
     {
         questions: "Find the correct Logarithmic Function for this expression: 4^3",
         answers: [
-            { text: "Log3(12) = 4", correct: false}, /*Change to correct if answer is correct*/
+            { text: "Log3(12) = 4", correct: false}, 
             { text: "Log4(64) = 3", correct: true},
             { text: "Log12(4) = 3", correct: false},
             { text: "Log3(64) = 4", correct: false},

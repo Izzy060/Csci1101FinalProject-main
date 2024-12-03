@@ -2,7 +2,7 @@ const questions = [
     {
         questions: "What is AI",
         answers: [
-            { text: "Ability to learn without specifying a set of rules", correct: false}, /*Change to correct if answer is correct*/
+            { text: "Ability to learn without specifying a set of rules", correct: false}, /*Change to true if answer is correct*/
             { text: "Any technique that enables a computer to mimic human behavior ", correct: true},
             { text: "An algorithm that uses a network of interconnected nodes", correct: false},
             { text: "Having multiple layers of neural networks that are able to complicated tasks", correct: false},
@@ -11,7 +11,7 @@ const questions = [
     {
         questions: "What does not use AI?",
         answers: [
-            { text: "apple/google Maps", correct: false}, /*Change to correct if answer is correct*/
+            { text: "apple/google Maps", correct: false}, 
             { text: "YouTube", correct: false},
             { text: "Clock App", correct: true},
             { text: "Amazon", correct: false},
@@ -20,7 +20,7 @@ const questions = [
     {
         questions: "What is not an application of deep learning",
         answers: [
-            { text: "Simple Chatbots", correct: true}, /*Change to correct if answer is correct*/
+            { text: "Simple Chatbots", correct: true}, 
             { text: "Self-driving cars", correct: false},
             { text: "Traffic prediction", correct: false},
             { text: "Online fraud Detection", correct: false},
@@ -29,7 +29,7 @@ const questions = [
     {
         questions: "What is not a type of neural network",
         answers: [
-            { text: "Feed-forward Neural network", correct: false}, /*Change to correct if answer is correct*/
+            { text: "Feed-forward Neural network", correct: false}, 
             { text: "Autoencoders", correct: false},
             { text: "Recurrent Neural Network", correct: false},
             { text: "Back current Neural Network", correct: true},
@@ -38,7 +38,7 @@ const questions = [
     {
         questions: "What does AI stand for",
         answers: [
-            { text: "Artificial Invention", correct: false}, /*Change to correct if answer is correct*/
+            { text: "Artificial Invention", correct: false}, 
             { text: "Automated Intelligence", correct: false},
             { text: "Artificial Intelligence", correct: true},
             { text: "Automated Innovation", correct: false},

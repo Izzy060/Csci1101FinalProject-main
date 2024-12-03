@@ -2,7 +2,7 @@ const questions = [
     {
         questions: "Who is often referred to as the father of the computer?",
         answers: [
-            { text: "Alan Turing", correct: false}, /*Change to correct if answer is correct*/
+            { text: "Alan Turing", correct: false}, /*Change to true if answer is correct*/
             { text: "Charles Babbage", correct: true},
             { text: "George Boole", correct: false},
             { text: "Tim Berners-Lee", correct: false},
@@ -11,7 +11,7 @@ const questions = [
     {
         questions: ".Which of the following is NOT an instrument considered one of the early caculating machine",
         answers: [
-            { text: "Abacus", correct: false}, /*Change to correct if answer is correct*/
+            { text: "Abacus", correct: false}, 
             { text: "Slide Rule", correct: false},
             { text: "The Difference Engine", correct: false},
             { text: "Turing Machine", correct: true},
@@ -20,7 +20,7 @@ const questions = [
     {
         questions: "Which programming language did Bjarne Stroustrup develop?",
         answers: [
-            { text: "Java", correct: false}, /*Change to correct if answer is correct*/
+            { text: "Java", correct: false}, 
             { text: "Python", correct: false},
             { text: "C++", correct: true},
             { text: "COBOL", correct: false},
@@ -29,7 +29,7 @@ const questions = [
     {
         questions: "Who is considered the first computer programmer?",
         answers: [
-            { text: "Grace Hopper", correct: false}, /*Change to correct if answer is correct*/
+            { text: "Grace Hopper", correct: false}, 
             { text: "Ada Lovelace", correct: true},
             { text: "Bjarne Stroustrup", correct: false},
             { text: "Alan Turing", correct: false},
@@ -38,7 +38,7 @@ const questions = [
     {
         questions: "Alan Turing is known for developing which of the following concepts?",
         answers: [
-            { text: "COBOL", correct: false}, /*Change to correct if answer is correct*/
+            { text: "COBOL", correct: false}, 
             { text: "Turing Machine", correct: true},
             { text: "World Wide Web", correct: false},
             { text: "Apple I computer", correct: false},
