@@ -1,47 +1,47 @@
 const questions = [
     {
-        questions: "Questions goes here",
+        questions: "What is the primary purpose of HTML in web development?",
         answers: [
-            { text: "Answer 1 here", correct: false}, /*Change to correct if answer is correct*/
-            { text: "Answer 2 here", correct: true},
-            { text: "Answer 3 here", correct: false},
-            { text: "Answer 4 here", correct: false},
+            { text: "To define the structure and content of a webpage", correct: true}, /*Change to true if answer is correct*/
+            { text: "To style and format a webpage", correct: false},
+            { text: "To make a webpage interactive", correct: false},
+            { text: "To store data for a webpage", correct: false},
         ]
     },
     {
-        questions: "Questions goes here",
+        questions: "What is the purpose of Javascript in a website?",
         answers: [
-            { text: "Answer 1 here", correct: false}, /*Change to correct if answer is correct*/
-            { text: "Answer 2 here", correct: true},
-            { text: "Answer 3 here", correct: false},
-            { text: "Answer 4 here", correct: false},
+            { text: "To structure the webpage", correct: false}, 
+            { text: "To apply styles to the webpage", correct: false},
+            { text: "To make the webpage interactive", correct: true},
+            { text: "To store user data in a database", correct: false},
         ]
     },
     {
-        questions: "Questions goes here",
+        questions: "Which of the following sets of HTML tages are valid?",
         answers: [
-            { text: "Answer 1 here", correct: false}, /*Change to correct if answer is correct*/
-            { text: "Answer 2 here", correct: true},
-            { text: "Answer 3 here", correct: false},
-            { text: "Answer 4 here", correct: false},
+            { text: "< Heading > < article > < nav >", correct: false}, 
+            { text: "< html > < em > < ol >", correct: true},
+            { text: "< footer > < sec > < nav >", correct: false},
+            { text: "< link > < style > < p >", correct: false},
         ]
     },
     {
-        questions: "Questions goes here",
+        questions: "Which method is used to select an element by its ID in JavaScript?",
         answers: [
-            { text: "Answer 1 here", correct: false}, /*Change to correct if answer is correct*/
-            { text: "Answer 2 here", correct: true},
-            { text: "Answer 3 here", correct: false},
-            { text: "Answer 4 here", correct: false},
+            { text: "document.getElementById()", correct: true}, 
+            { text: "document.querySelector()", correct: false},
+            { text: "document.getElementsByClassName()", correct: false},
+            { text: "document.selectByID()", correct: false},
         ]
     },
     {
-        questions: "Questions goes here",
+        questions: "Which of the following is a valid CSS selector?",
         answers: [
-            { text: "Answer 1 here", correct: false}, /*Change to correct if answer is correct*/
-            { text: "Answer 2 here", correct: true},
-            { text: "Answer 3 here", correct: false},
-            { text: "Answer 4 here", correct: false},
+            { text: "#header {color: blue;}", correct: true}, 
+            { text: "@header {color: blue;}", correct: false},
+            { text: "%header {color: blue;}", correct: false},
+            { text: ".header: blue;", correct: false},
         ]
     }
 ];
