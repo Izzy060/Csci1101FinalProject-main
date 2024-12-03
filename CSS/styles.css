@@ -28,25 +28,19 @@ ul li, ol li {
     color: white; /* Text color */
     text-align: center; /* Centers the text */
     border: none; /* Removes the border */
-    /*border-radius: 5px;*/ /* Rounds the corners */
+    border-radius: 5px; /* Rounds the corners */
     text-decoration: none; /* Removes the underline */
     cursor: pointer; /* Changes cursor to pointer */
     transition: background-color 0.3s; /* Adds a transition effect */
-    background-color: #d59b1f; /* Bright egg yolk color */
     margin-left: 50px;
     margin-top: 50px;
     text-transform: uppercase;
 }
 
-    .button:hover {
-        background-color: #c90f0f; /* Darker shade on hover */
-    }
-
     footer {
         text-align: center;
         margin-top: 40px;
         font-size: 0.9em;
-        color: #ffcc00;
     }
 
 
